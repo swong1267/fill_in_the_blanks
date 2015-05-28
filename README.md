@@ -6,7 +6,7 @@
 4. Run ```bundle``` again
 5. There's a controller already made for you, navigate to that controller and inspect the name, what's wrong with it? (Think convention) Find the problem and correct it.
 6. Run ```rails server```
-7. Navigate to ```localhost:3000``` in your browser. What does the error indicate? Navigate to your routes and correct your ```root```.
+7. Navigate to ```localhost:3000``` in your browser. What does the error indicate? Navigate to your routes and correct the error.
 8. Go back to your browser, is it working?
 9. Your posts_controller has all of your CRUD actions and a private method for whitelisting, but they're empty. We'll fill them out as we move through the following steps, use the comments inside of the actions as guidelines.
 10. Create corresponding views for each of your actions.
