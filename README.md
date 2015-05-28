@@ -38,4 +38,5 @@
 	- Including the seeded data that came with the app
 - Allow your to Create, Read, Update, and Destroy posts
 - Have your root set to your posts index
-- Push this app to a new repo in your GitHub called ```Fill-in-the-blanks``` then submit the link via Piazza
+
+#### Push this app to a new repo in your GitHub called ```fill_in_the_blanks``` then submit the link via Piazza
