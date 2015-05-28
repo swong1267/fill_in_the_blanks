@@ -17,7 +17,7 @@
 15. Oh no, we get an error! What does the error indicate? How can we fix it?
 16. Create corresponding routes for each of your views then go back and see if the new view will work.
 17. We have some seeded data already in the app, where is it located? What command do we run to seed the data?
-18. Run the seed command in your terminal, what is the result?
+18. Run the seed command in your terminal.
 19. Now we have some seed data, how can we get that data to display on our index view?
 20. Fill in the code to have our posts display properly.
 21. We want to add some more posts, edit your new view and the corresponding ```_form``` partial to allow creation of new posts via a form.
