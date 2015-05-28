@@ -20,7 +20,7 @@
 18. Run the seed command in your terminal.
 19. Now we have some seed data, how can we get that data to display on our index view?
 20. Fill in the code to have our posts display properly.
-21. We want to add some more posts, edit your new view and the corresponding ```_form``` partial to allow creation of new posts via a form.
+21. We want to add some more posts, edit your ```new view``` and the corresponding ```_form``` partial to allow creation of new posts via a form.
 22. What other files do we need to fill in before the new form will work properly? Be sure to add validations to the Post model.
 23. Go back to your posts_controller and fill in the corresponding actions to allow creation and viewing of a Post.
 24. Now we want to go back and edit one of our existing posts. Fill in the corresponding view and actions to make this work.
@@ -28,7 +28,8 @@
 
 #### BONUS: 
 
-Edit your layout to have a custom, site wide, title (i.e., "Ian's Rails App!") 
+- Edit your layout to have a custom, site wide, title (i.e., "Ian's Rails App!")
+- Add links for easy navigation between pages
 
 #### Your app should:
 
