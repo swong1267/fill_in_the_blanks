@@ -1,26 +1,26 @@
 # Exercise: Fill in the blanks app
 
 1. Clone (```git clone```) [this app](https://github.com/nax3t/fill_in_the_blanks) to your local drive
-2. Run ```bundle```
+2. ```cd``` into ```fill_in_the_blanks``` and run ```bundle```
 3.  Oh no! One of your gems has gone rogue! Find it and remove it. While you're there, add the ```pry-rails``` gem to your app. Which group block does this gem go inside?
 4. Run ```bundle``` again
 5. Run ```rails server```
 6. Navigate to ```localhost:3000``` in your browser. What does the error indicate? 
 7. Run the proper command to resolve the error.
-8. Go back to your browser with your server running, is ```localhost:3000``` working?
-9. Navigate to your routes and fix the code there to resolve the error.
-10. There's a controller already made for you (not application_controller), navigate to that controller and inspect the name, what's wrong with it? (Think convention) Find the problem and correct it.
+8. Run ```rails server``` again, is ```localhost:3000``` working? Read the new error then continue on to step 9...
+9. There's a controller already made for you (not application_controller), navigate to that controller and inspect the name, what's wrong with it? (Think convention) Find the problem and correct it.
+10. Navigate to your routes and fix the code there to resolve the error from your browser (Hint: It has to do with your ```root```).
 11. Your controller has all of your CRUD actions and a private method for whitelisting, but they're empty. We'll fill them out as we move through the following steps, use the comments inside of the actions as guidelines.
 12. Create corresponding views for each of your actions.
 13. Which actions do we *not* create views for? Why?
 14. Navigate to ```localhost:3000/posts/new``` in your browser
 15. Oh no, we get an error! What does the error indicate? How can we fix it?
-16. Create corresponding routes for each of your views then go back and see if the new view will work.
+16. Create routes for your posts. Does the error go away?
 17. We have some seeded data already in the app, where is it located? What command do we run to seed the data?
 18. Run the seed command in your terminal.
 19. Now we have some seed data, how can we get that data to display on our index view?
 20. Fill in the code to have our posts display properly.
-21. We want to add some more posts, edit your ```new view``` and the corresponding ```_form``` partial to allow creation of new posts via a form.
+21. We want to add some more posts, edit your ```new``` view and the corresponding ```_form``` partial to allow creation of new posts via a form.
 22. What other files do we need to fill in before the new form will work properly? Be sure to add validations to the Post model.
 23. Go back to your posts_controller and fill in the corresponding actions to allow creation and viewing of a Post.
 24. Now we want to go back and edit one of our existing posts. Fill in the corresponding view and actions to make this work.
