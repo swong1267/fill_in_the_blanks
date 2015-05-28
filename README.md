@@ -26,7 +26,9 @@
 24. Now we want to go back and edit one of our existing posts. Fill in the corresponding view and actions to make this work.
 25. Almost done! Add a button next to each Post that allows us to destroy that post.
 
-### BONUS: Edit your layout to have a custom, site wide, title (i.e., "Ian's Rails App!") 
+#### BONUS: 
+
+Edit your layout to have a custom, site wide, title (i.e., "Ian's Rails App!") 
 
 #### Your app should:
 
