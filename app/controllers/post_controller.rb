@@ -15,6 +15,10 @@ class PostsController < ApplicationController
 		# redirect to the new Post
 	end
 
+	def show
+		# assign an instance variable to the post with id from params
+	end
+
 	def edit
 		# assign an instance variable to the post with id from params
 	end
