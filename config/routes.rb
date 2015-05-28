@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
 
-  # Below are your index and show routes, finish filling in the the remaining 5 routes
-  # Do not use resources method
+  # Below is your index route, finish filling in the the remaining 5 routes
+  # What method can we use to create all of our RESTful routes at once?
   get '/posts', to: 'posts#index', as: 'posts'
-  get '/posts/:id', to: 'posts#show', as: 'post'
 
   # This root route is pointing to the wrong controller, fix it
   root 'welcome#index'
