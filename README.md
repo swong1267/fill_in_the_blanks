@@ -4,7 +4,6 @@
 2. Run ```bundle```
 3.  Oh no! One of your gems has gone rogue! Find it and remove it. While you're there, add the ```pry-rails``` gem to your app. Which group block does this gem go inside?
 4. Run ```bundle``` again
-
 5. Run ```rails server```
 6. Navigate to ```localhost:3000``` in your browser. What does the error indicate? 
 7. Run the proper command to resolve the error.
