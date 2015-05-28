@@ -38,5 +38,3 @@ Edit your layout to have a custom, site wide, title (i.e., "Ian's Rails App!")
 - Allow your to Create, Read, Update, and Destroy posts
 - Have your root set to your posts index
 - Push this app to a new repo in your GitHub called ```Fill-in-the-blanks``` then submit the link via Piazza
-
-# Lekker Plekke
