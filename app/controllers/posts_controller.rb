@@ -22,21 +22,32 @@ class PostsController < ApplicationController
 
 	def show
 		# assign an instance variable to the post with id from params
+		@post = Post.find(params[:id])
 	end
 
 	def edit
 		# assign an instance variable to the post with id from params
+		@post = Post.find(params[:id])
 	end
 
 	def update
 		# update the instance variable from our edit page
 		# redirect to the updated post
+		@post = Post.find(params[:id])
+		if @post.update(post_params)
+			redirect_to @post
+		else
+			render 'edit'
+		end
 	end
 
 	def destroy
 		# assign an instance variable to the post with id from params
 		# destroy the post
 		# redirect to index
+		@post = Post.find(params[:id])
+		@post.delete
+		redirect_to posts_path
 	end
 
 private
